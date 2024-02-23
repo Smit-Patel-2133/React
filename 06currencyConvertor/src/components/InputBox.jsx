@@ -1,14 +1,24 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useId } from "react";
 
 function InputBox({
+                    // eslint-disable-next-line react/prop-types
   label,
+                    // eslint-disable-next-line react/prop-types
   amount,
+                    // eslint-disable-next-line react/prop-types
   onAmountChange,
+                    // eslint-disable-next-line react/prop-types
   onCurrencyChange,
+                    // eslint-disable-next-line react/prop-types
   currencyOptions = [],
+                    // eslint-disable-next-line react/prop-types
   selectCurrency = "usd",
+                    // eslint-disable-next-line react/prop-types
   amountDisable = false,
+                    // eslint-disable-next-line react/prop-types
   currencyDisable = false,
+                    // eslint-disable-next-line react/prop-types
   className = "",
 }) {
   const amountInputId = useId();
